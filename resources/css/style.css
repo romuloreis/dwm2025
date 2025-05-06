@@ -42,6 +42,7 @@ header{
 
 h1{
     margin: 0;
+    margin-bottom: 10px;
     color: #FFF;
     font-size: 180%;
     text-transform: uppercase;
@@ -53,4 +54,26 @@ h1{
 .slogan{
     margin-top: 150px;
     margin-left: 10%;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    border: 1px solid #E67E22;
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 30px;
+    border-radius: 200px;
+    transition: 0.2s;
+}
+
+.btn-full{
+    background-color: #E67E22;
+    margin-right: 20px;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #CF6D17;
+    border: 1px solid #CF6D17;
 }
