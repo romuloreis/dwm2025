@@ -1,0 +1,36 @@
+/************************************/
+/********** CONFIGURAÇÕES ***********/
+/************************************/
+/* Seleciona cada um dos elementos do html.
+Zerando os espaçamentos para ter maior 
+domínio sobre os elementos. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define algumas propriedades padrões para a página */
+html{
+    /* Define a for de fundo */
+    background-color: #FFF;
+    /* Define uma cor de fonte de texto padrão */
+    color: #555;
+    /* Define a família de fonte padrão */
+    font-family: 'Lato', 'Arial', sans-serif;
+    /* Define a espessura padr~çao da fonte */
+    font-weight: 300;
+    /* Define o tamanho padrão de fonte */
+    font-size: 20px;
+    /* Otimiza a renderização da fonte para leitura, 
+    tendo melhor qualidade */
+    text-rendering: optimizeLegibility;
+}
+
+/************************************/
+/************ HERO HEADER ***********/
+/************************************/
+header{
+    background-image: url(img/img-hero-header.jpg);
+    height: 100vh;
+}
