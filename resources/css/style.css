@@ -38,6 +38,8 @@ header{
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 h1{
@@ -76,4 +78,42 @@ h1{
 .btn:active{
     background-color: #CF6D17;
     border: 1px solid #CF6D17;
+}
+
+/************************************/
+/************** MENU ****************/
+/************************************/
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 130px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.main-nav ul{
+    width: 650px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.main-nav ul li a:link,
+.main-nav ul li a:visited{
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a:active{
+    border-bottom: 2px solid #E67E22;
 }
