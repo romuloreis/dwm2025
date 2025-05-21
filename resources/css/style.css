@@ -117,3 +117,64 @@ h1{
 .main-nav ul li a:active{
     border-bottom: 2px solid #E67E22;
 }
+
+/************************************/
+/********** INFORMAÇÕES *************/
+/************************************/
+.section-information{
+    padding: 80px 0;
+}
+
+h2{
+    font-size: 180%;
+    text-transform: uppercase;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h2::after{
+    /* content: "\002738"; */
+    content: " ";
+    height: 2px;
+    width: 100px;
+    background-color: #E67E22;
+    display: block;
+    margin: 30px auto;
+}
+
+.top p{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145%;
+}
+
+/* .infos{} */
+.section-information>div:nth-child(2){
+   display: flex; 
+   flex-wrap: wrap;
+}
+
+.infos>div{
+    flex-basis: 250px;
+    flex-grow: 1;
+    padding: 1%;
+}
+
+.section-information ion-icon{
+    font-size: 350%;
+    color: #E67E22;
+}
+
+h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.infos p{
+    font-size: 90%;
+    line-height: 145%;
+}
