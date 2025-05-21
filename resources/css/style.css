@@ -178,3 +178,35 @@ h3{
     font-size: 90%;
     line-height: 145%;
 }
+
+/************************************/
+/******* Galeria de Pratos **********/
+/************************************/
+.section-galery ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-galery ul li{
+    width: 250px;
+    /* Ativa crescimento do item */
+    flex-grow: 1;
+    /* Desativa encolhimento do item */
+    flex-shrink: 0;
+    /* Esconder as partes das imagens que 
+    ultrapassarem os limites do figure */
+    overflow: hidden;
+    background-color: #000;
+}
+
+.section-galery ul li img{
+    width: 100%;
+    transform: scale(1.15);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.section-galery ul li img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
