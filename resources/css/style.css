@@ -204,9 +204,101 @@ h3{
     transform: scale(1.15);
     transition: 0.5s;
     opacity: 0.7;
+    /* filter: grayscale(100%); */
 }
 
 .section-galery ul li img:hover{
     transform: scale(1.05);
     opacity: 1;
+    /* filter: blur(2px); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(120%) saturate(150%); */
+    /* filter: grayscale(0%); */
+    /* filter: sepia(100%); */
+    /* filter: saturate(150%); */
+    /* filter: drop-shadow(8px 8px 10px gray); */
+}
+
+/************************************/
+/******* Segunda Galeria ************/
+/************************************/
+.section-galery-2{
+    padding: 60px 0;
+}
+
+.section-galery-2>figure{
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-galery-2>figure>img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #E67E22;
+    border-radius: 10px;
+    transition: width ease-in-out 0.5s;
+}
+
+.section-galery-2>figure>img:hover{
+    width: 50%;
+}
+
+/************************************/
+/************** Rodapé **************/
+/************************************/
+footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 40px 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-nav ul,
+.social-nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+footer a:visited,
+footer a:link{
+    color: #888;
+    text-decoration: none;
+}
+
+.logo-twitter:hover{
+    color: #00aced;
+}
+
+.logo-instagram:hover{
+    color: #517fa4;
+}
+
+.logo-facebook:hover{
+    color: #3b5998;
+}
+
+.logo-youtube:hover{
+    color: #FF0000;
+}
+
+ion-icon{
+    transition: color 0.2s;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
 }
