@@ -20,12 +20,15 @@
 
         <nav class="main-nav">
             <img class="logo" src="resources/img/fast-food.svg" alt="logo">
-            <ul>
+            <ul class="js--list-nav">
                 <li><a href="#info">Informações</a></li>
                 <li><a href="#dishes">Pratos</a></li>
                 <li><a href="#galery">Galeria</a></li>
-                <li><a href="#">Encomendas</a></li>
+                <li><a href="#footer">Encomendas</a></li>
             </ul>
+            <a href="#" class="mobile-nav-icon js--mobile-nav-icon">
+                <ion-icon class="nav-icon" name="menu-outline"></ion-icon>
+            </a>
         </nav>
 
         <div class="slogan">
@@ -71,7 +74,7 @@
         </div>
     </section>
 
-    <section class="section-galery">
+    <section class="section-galery" id="galery">
         <ul>
             <li>
                 <figure><img src="resources/img/1.jpg" alt="Pizza Vegana De Cogumelos"></figure>
@@ -100,7 +103,7 @@
         </ul>
     </section>    
 
-    <section class="section-galery-2">
+    <section class="section-galery-2" id="dishes">
         <figure>
             <img src="resources/img/1.jpg" alt="Salada de Frango Fit">
             <img src="resources/img/2.jpg" alt="Salada de Frango Fit">
@@ -110,7 +113,7 @@
         </figure>
     </section>
 
-    <footer>
+    <footer id="footer">
         <div class="footer-top">
             <nav class="footer-nav">
                 <ul>
@@ -157,5 +160,9 @@
     <!-- Importação da biblioteca de ícones ionicon -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Importação da biblioteca JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Importação do meu arquivo de sript -->
+    <script src="resources/js/script.js"></script>
 </body>
 </html>
